@@ -16,7 +16,7 @@ const Header = ({ handleToggleDarkMode }) => {
       >
         {/* <MdModeNight>Dark Mode</MdModeNight> */}
         {isActive?<MdModeNight onClick={()=>{
-            setActive(!isActive)}}/> 'Dark Mode':
+            setActive(!isActive)}}/>:
                 <MdLightMode onClick={()=>{
             setActive(!isActive)}} />}
         
